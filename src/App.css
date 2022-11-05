@@ -1,0 +1,56 @@
+*{
+  --c1-purple: #C67AFF;
+  --c2-purple: #8A56B3;
+  --c3-purple: #AD95BF;
+  --c4-purple: #E7C7FF;
+  --c5-purple: #633D7F;
+}
+
+/*
+:::App.jsx
+*/
+.App{
+  background-color: var(--c5-purple);
+}
+.App__h1{
+  color: var(--c4-purple);
+  font-size: 1.45em;
+  font-weight: 700;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Location.jsx */
+.location{
+  background-color: beige;
+}
+.location__section{}
+.section__div{
+  font-size: 1.25em;
+  color: rgb(93, 97, 205);
+}
+
+.location__search{}
+.search__input{}
+.search__btn{}
+
+.locarion__element{}
+.element__ul{
+}
+
+/*ElementLocation.jsx*/
+.ul__li{
+}
+.li__card{
+  color: rgb(36, 33, 33);
+  display: grid;
+  grid-template-rows: auto auto;
+  margin-bottom: 0.5rem;
+}
+.card__p{
+  text-align: center;
+}
+.card__img{
+  width: 25%;
+  align-items: center;
+}
