@@ -49,20 +49,20 @@ const Location = () => {
         </div>
         <div className='section__div'>
           <p className="div__p">
-            <b className='div__p div__p-b'>Type:</b>
+            <b className='div__p div__p-b'>Type: </b>
              {location.type}
           </p>
         </div>
         <div className='section__div'>
           <p className="div__p">
-            <b className='div__p div__p-b'>Dimension:</b>
+            <b className='div__p div__p-b'>Dimension: </b>
              {location.dimension}
           </p>
         </div>
         <div className='section__div'>
           <p className="div__p">
-            <b className='div__p div__p-b'>Population:</b>
-             ??
+            <b className='div__p div__p-b'>Population: </b>
+             {location.residents?.length}
           </p>
         </div>
       </section>

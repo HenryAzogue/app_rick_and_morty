@@ -7,17 +7,18 @@ function App() {
   return (
     <div className="App">
       <header className='App__header'>
-        <img  className='header__img'
-          src={imagen.img1} alt="Logo Rick and Morty" 
+        <img className='header__img'
+          src={imagen.img1} alt="Logo Rick and Morty"
         />
         <h1 className='header__h1'>You Wiki</h1>
       </header>
 
       <Location />
 
+      <hr className='App__hr'/>
       <footer className='App__footer'>
         <p className="footer__p">
-          Developed by Henry Azogue and Marcos Díaz
+          Developed by @HenryAzogue
         </p>
       </footer>
     </div>
