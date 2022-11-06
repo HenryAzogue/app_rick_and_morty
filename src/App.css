@@ -1,23 +1,29 @@
+
+/*responsive:: first phone */
 *{
-  --c1-purple: #FCEAE8;
-  --c2-purple: #F2BC57;
-  --c3-purple: #F29C50;
-  --c4-purple: #732C03;
-  --c5-purple: #F26D3D;
+  --c1-moon: #FCEAE8;
+  --c2-sun: #F2BC57;
+  --c3-sun: #F29C50;
+  --c4-sun: #732C03;
+  --c5-sun: #F26D3D;
 }
 
 /*
 :::App.jsx
 */
 .App{
-  background-color: var(--c5-purple);
+  background-color: var(--c5-sun);
 }
-.App__h1{
-  color: var(--c4-purple);
-  font-size: 1.45em;
-  font-weight: 700;
+.App__header{
+  color: var(--c1-sun);
   text-align: center;
-  padding: 2rem;
+}
+.header__img{
+  width: 100%;
+}
+.header__h1{
+  font-size: 1.25em;
+  padding: 0.75rem 0;
 }
 
 /* Location.jsx */
@@ -53,4 +59,14 @@
 .card__img{
   width: 25%;
   align-items: center;
+}
+
+/*Footer*/
+.App__footer{
+  padding: 0.75rem;
+}
+.footer__p{
+  color: var(--c1-moon);
+  font-size: 0.75em;
+  text-align: center;
 }

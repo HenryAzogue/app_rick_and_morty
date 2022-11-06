@@ -10,9 +10,16 @@ function App() {
         <img  className='header__img'
           src={imagen.img1} alt="Logo Rick and Morty" 
         />
-        <h1 className='header__h1'>Estes es mi componente Rick And Morty</h1>
+        <h1 className='header__h1'>Wiki</h1>
       </header>
+
       <Location />
+
+      <footer className='App__footer'>
+        <p className="footer__p">
+          Developed by Henry Azogue and Marcos Díaz
+        </p>
+      </footer>
     </div>
   )
 }
