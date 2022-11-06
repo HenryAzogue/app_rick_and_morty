@@ -48,16 +48,24 @@ const Location = () => {
           <p className="div__p div__p-title">{location.name}</p>
         </div>
         <div className='section__div'>
-          <p className="div__p">Type: {location.type}</p>
+          <p className="div__p">
+            <b className='div__p div__p-b'>Type:</b>
+             {location.type}
+          </p>
         </div>
         <div className='section__div'>
-          <p className="div__p">Dimension: {location.dimension}</p>
+          <p className="div__p">
+            <b className='div__p div__p-b'>Dimension:</b>
+             {location.dimension}
+          </p>
         </div>
         <div className='section__div'>
-          <p className="div__p">Population: ??</p>
+          <p className="div__p">
+            <b className='div__p div__p-b'>Population:</b>
+             ??
+          </p>
         </div>
       </section>
-
 
       <section className="location__element">
         <h2 className="element__h2">Resident</h2>
