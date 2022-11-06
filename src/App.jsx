@@ -10,7 +10,7 @@ function App() {
         <img  className='header__img'
           src={imagen.img1} alt="Logo Rick and Morty" 
         />
-        <h1 className='header__h1'>Wiki</h1>
+        <h1 className='header__h1'>You Wiki</h1>
       </header>
 
       <Location />
