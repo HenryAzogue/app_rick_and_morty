@@ -24,6 +24,21 @@ const Location = () => {
 
   return (
     <div className='location'>
+
+      <div className="location__search">
+        <input
+          className='search__input'
+          type="text"
+          value={idLocation}
+          onChange={(e) => setIdLocation(e.target.value)}
+        />
+        <button
+          className='search__btn'
+          onClick={searchLocation}
+        >Search
+        </button>
+      </div>
+
       <section className='location__section'>
         <div className='section__div'>
           <p className="div__p">{location.name}</p>
@@ -39,19 +54,7 @@ const Location = () => {
         </div>
       </section>
 
-      <div className="location__search">
-        <input
-          className='search__input'
-          type="text"
-          value={idLocation}
-          onChange={(e) => setIdLocation(e.target.value)}
-        />
-        <button
-          className='search__btn'
-          onClick={searchLocation}
-        >Search
-        </button>
-      </div>
+
       <section className="location__element">
         <ul className='element__ul'>
           {location.residents?.map((resident) => (

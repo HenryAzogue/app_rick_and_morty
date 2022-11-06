@@ -22,23 +22,35 @@
   width: 100%;
 }
 .header__h1{
-  font-size: 1.25em;
-  padding: 0.75rem 0;
+  font-size: 1.50em;
+  font-weight: 700;
+  padding-top: 1.25rem;
 }
 
 /* Location.jsx */
 .location{
-  background-color: beige;
-}
-.location__section{}
-.section__div{
-  font-size: 1.25em;
-  color: rgb(93, 97, 205);
+  background-color: var(--c5-sun);
+  padding: 10%;
 }
 
-.location__search{}
-.search__input{}
+.location__search{
+  
+}
+.search__input{
+  background-color: var(--c1-moon);
+}
 .search__btn{}
+
+
+.location__section{
+  display: grid;
+
+}
+.section__div{
+  font-size: 1.25em;
+  color: var(--c1-moon);
+}
+.div__p{}
 
 .locarion__element{}
 .element__ul{
@@ -67,6 +79,6 @@
 }
 .footer__p{
   color: var(--c1-moon);
-  font-size: 0.75em;
+  font-size: 0.70em;
   text-align: center;
 }
