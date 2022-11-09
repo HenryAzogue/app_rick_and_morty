@@ -4,13 +4,14 @@ import imagen from './assets/imagen'
 
 function App() {
 
+  
   return (
     <div className="App">
       <header className='App__header'>
         <img className='header__img'
           src={imagen.img1} alt="Logo Rick and Morty"
         />
-        <h1 className='header__h1'>You Wiki</h1>
+        <h1 className='header__h1'>Your Wiki</h1>
       </header>
 
       <Location />
