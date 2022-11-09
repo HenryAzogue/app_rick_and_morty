@@ -4,6 +4,7 @@ Demostración practica de consumo de api "rickandmorty.api" y busqueda de los pe
 º No se logro completar el modo responsive en resoluciones mas bajas ya que se rompía todo el esquema al seguir bajando de pantalla. 
 
 #link del la página desplegada
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 https://delicate-tiramisu-a16501.netlify.app
